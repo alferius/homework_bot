@@ -6,12 +6,15 @@ Telegram-бот на Python использующий API Яндекс.Домаш
 при обновлении статуса анализирует ответ API и отправляет соответствующее уведомление в Telegram;
 логирует свою работу и сообщает о важных проблемах сообщением в Telegram.
 
-Клонировать репозиторий и перейти в него в командной строке: git clone https://github.com/alferius/api_final_yatube.git cd api_final_yatube
+Клонировать репозиторий и перейти в него в командной строке: 
+git clone https://github.com/alferius/homework_bot.git 
+cd api_final_yatube
 
-Cоздать и активировать виртуальное окружение: python3 -m venv env source env/bin/activate
+Cоздать и активировать виртуальное окружение:
+python3 -m venv env source env/bin/activate
 
-Установить зависимости из файла requirements.txt: python3 -m pip install --upgrade pip pip install -r requirements.txt
+Установить зависимости из файла requirements.txt: 
+python3 -m pip install --upgrade pip pip install -r requirements.txt
 
-Выполнить миграции: python3 manage.py migrate
-
-Запустить проект: python3 manage.py runserver
+Запустить проект: 
+python3 manage.py runserver
