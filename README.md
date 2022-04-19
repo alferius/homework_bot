@@ -8,7 +8,7 @@ Telegram-бот на Python использующий API Яндекс.Домаш
 
 Клонировать репозиторий и перейти в него в командной строке: 
 git clone https://github.com/alferius/homework_bot.git 
-cd api_final_yatube
+cd homework_bot
 
 Cоздать и активировать виртуальное окружение:
 python3 -m venv env source env/bin/activate
